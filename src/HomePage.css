@@ -1,0 +1,104 @@
+.homepage-container {
+    margin-top: 80px;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.survey-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.survey-card {
+    max-width: 300px;
+    min-height: 230px;
+    max-height: 500px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.survey-card:hover {
+    transform: translateY(-5px);
+}
+
+.survey-card .card-body {
+    padding: 1.5rem;
+    flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.survey-card .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.survey-card .card-text {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.survey-card .button-group {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.loading-spinner {
+    margin-bottom: 1rem;
+}
+
+.loading-text {
+    margin: 0;
+}
+
+/* Media Query for screens with a maximum width of 576px */
+@media (max-width: 576px) {
+    .homepage-container {
+        margin-top: 80px;
+        align-items: center;
+    }
+
+    .title {
+        margin-bottom: 1rem;
+    }
+
+    .survey-list {
+        gap: 1rem;
+    }
+
+    .survey-card {
+        max-width: 100%;
+        min-height: auto;
+        max-height: none;
+    }
+
+    .survey-card .card-body {
+        padding: 1rem;
+    }
+}

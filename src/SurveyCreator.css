@@ -1,0 +1,95 @@
+.survey-creator-container {
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+.survey-creator-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.survey-creator-container .survey-creator__question {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.survey-creator-container .survey-creator__question-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.survey-creator-container .survey-creator__option {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.survey-creator-container .survey-creator__option input[type='text'] {
+    flex: 1;
+}
+
+.survey-creator-container .survey-creator__remove-option {
+    margin-left: 10px;
+}
+
+.survey-creator-container .survey-creator__add-question,
+.survey-creator-container .survey-creator__remove-question {
+    margin-top: 10px;
+}
+
+.survey-creator-container .survey-creator__buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.survey-creator-container .survey-creator__save-survey {
+    margin-left: 10px;
+}
+
+/* Media Query for screens with a maximum width of 576px */
+@media (max-width: 576px) {
+    .survey-creator-container {
+        margin-top: 80px;
+        margin-left: 2px;
+    }
+
+    .survey-creator-container h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .survey-creator-container .survey-creator__question {
+        margin-top: 15px;
+        padding: 8px;
+    }
+
+    .survey-creator-container .survey-creator__question-label {
+        font-weight: bold;
+        margin-bottom: 3px;
+    }
+
+    .survey-creator-container .survey-creator__option {
+        margin-top: 8px;
+    }
+
+    .survey-creator-container .survey-creator__remove-option {
+        margin-left: 8px;
+    }
+
+    .survey-creator-container .survey-creator__add-question,
+    .survey-creator-container .survey-creator__remove-question {
+        margin-top: 8px;
+    }
+
+    .survey-creator-container .survey-creator__buttons {
+        margin-top: 15px;
+    }
+
+    .survey-creator-container .survey-creator__save-survey {
+        margin-left: 8px;
+    }
+}
